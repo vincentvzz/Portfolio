@@ -1,14 +1,6 @@
 import React from "react";
-// import { useNavigate } from "react-router-dom";
-// import { useHistory } from "react-router-dom";
 
 export default function About() {
-
-//   const navigate = useNavigate();
-//   function referenceRedirect() {
-//     let path = "https://www.freecodecamp.org/news/build-portfolio-website-react/";
-//     navigate(path);
-//   }
 
   return (
     <section id="about">
@@ -25,7 +17,7 @@ export default function About() {
             Laborum, voluptas natus?
           </p>
           <p className="mb-8 leading-relaxed">
-            This website is inspired and referenced by <a className="text-white" href="https://www.freecodecamp.org/news/build-portfolio-website-react/" >FreeCodeCamp</a>.
+            This website is inspired and referenced by <a className="text-white" href="https://www.freecodecamp.org/news/build-portfolio-website-react/" target="_blank" rel="noopener noreferrer">FreeCodeCamp</a>.
           </p>
           <div className="flex justify-center">
             <a
