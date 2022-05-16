@@ -15,6 +15,9 @@ export default function About() {
             laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
             Laborum, voluptas natus?
           </p>
+          <p className="mb-8 leading-relaxed">
+            This website is inspired and referenced by <a className="text-white" href="https://www.freecodecamp.org/news/build-portfolio-website-react/">FreeCodeCamp</a>.
+          </p>
           <div className="flex justify-center">
             <a
               href="#contact"
