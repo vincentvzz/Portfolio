@@ -32,3 +32,5 @@ export const projects = [
       link: "",
     },
   ];
+
+  export const skills = ["React"];
