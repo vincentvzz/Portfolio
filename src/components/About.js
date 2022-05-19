@@ -1,4 +1,7 @@
 import React from "react";
+import Vincent from "../img/Vincent.png";
+
+console.log(Vincent);
 
 export default function About() {
 
@@ -12,9 +15,8 @@ export default function About() {
             apps. */}
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            I am a 3rd year student at University of Washington studying Human Centered Design and Engineering with a Data Science focus.
+            I am passionate about Data Science, Web programming, Backend Development, and User-Centered Design.
           </p>
           <p className="mb-8 leading-relaxed">
             This website is inspired and referenced by <a className="text-white" href="https://www.freecodecamp.org/news/build-portfolio-website-react/" target="_blank" rel="noopener noreferrer">FreeCodeCamp</a>.
@@ -32,13 +34,13 @@ export default function About() {
             </a>
           </div>
         </div>
-        {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
             alt="my_photo"
-            src="./img/Vincent.png"
+            src={require("../img/Vincent.png").default}
           />
-        </div> */}
+        </div>
       </div>
     </section>
   );
