@@ -35,6 +35,7 @@ function Navigation() {
             </ul>
           </div>
         </div>
+        <a href="/Vincent_Zhou_Resume.pdf" download>Resume</a>
       </nav>
     </div>
   );
