@@ -1,24 +1,27 @@
 import React from "react";
+import logo from './logo.svg';
+import zzy_host from '../static_files/img/zzy-host.png';
+
+console.log(logo);
 
 function About() {
   return (
-    <div className="about">
+    <div className="home">
       <div class="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
+              src={zzy_host}
+              alt="zzy-host"
             />
           </div>
           <div class="col-lg-5">
-            <h1 class="font-weight-light">About</h1>
+            <h1 class="font-weight-light">Hi, I am Vincent!</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              I am a 3rd year student at University of Washington studying Human Centered Design
+              and Engineering with a Data Science focus. I am passionate about Data Science, Web
+              programming, Backend Development, and User-Centered Design.
             </p>
           </div>
         </div>
