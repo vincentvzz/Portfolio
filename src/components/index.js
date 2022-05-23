@@ -7,4 +7,5 @@ export { default as Research } from "./blog/Research";
 export { default as Posts } from "./blog/Posts";
 export { default as Post } from "./blog/Post";
 export { default as IslandWood } from "./projects/IslandWood";
+export { default as OpenHallway } from "./projects/OpenHallway";
 export { default as Projects } from "./projects/Projects";

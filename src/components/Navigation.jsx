@@ -35,7 +35,7 @@ function Navigation() {
             </ul>
           </div>
         </div>
-        <a className="nav-link" href="../static_files/file/Vincent_Zhou_Resume.pdf" download>Resume</a>
+        <a class="text-slate-500" href="../static_files/file/Vincent_Zhou_Resume.pdf" download>Resume</a>
       </nav>
     </div>
   );

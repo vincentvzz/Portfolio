@@ -1,8 +1,5 @@
 import React from "react";
-import logo from './logo.svg';
 import zzy_host from '../static_files/img/zzy-host.png';
-
-console.log(logo);
 
 function About() {
   return (
@@ -21,8 +18,40 @@ function About() {
             <p>
               I am a 3rd year student at University of Washington studying Human Centered Design
               and Engineering with a Data Science focus. I am passionate about Data Science, Web
-              programming, Backend Development, and User-Centered Design.
+              programming, Backend Development, and User-Centered Design. Feel free to get more information at <a class="text-sky-600" href="https://www.linkedin.com/in/vincent-zhiyuan-zhou/">LinkedIn</a> and <a href="https://github.com/vincentvzz">Github</a>.
             </p>
+
+            <p>
+              Programming Skillset:
+              <ul>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>Azure Cognitive Search</li>
+                <li>Azure ML Studio</li>
+                <li>...</li>
+              </ul>
+            </p>
+            <p>
+              Past experiences include:
+              <ul>
+                <li>Internship as a Data Engineer and Software Engineer</li>
+                <li>Research Assistant for Data-Driven Research</li>
+                <li>Several Projects of web programming</li>
+                <li>...</li>
+              </ul>
+            </p>
+            <p>
+              Hobbies include:
+              <ul>
+                <li>Team Fight Tactics</li>
+                <li>Animes</li>
+                <li>Chess</li>
+                <li>...</li>
+              </ul>
+            </p>
+
           </div>
         </div>
       </div>
