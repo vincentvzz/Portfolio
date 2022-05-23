@@ -1,5 +1,6 @@
 import React from "react";
 import logo from './logo.svg';
+import zzy_host from '../static_files/img/zzy-host.png';
 
 console.log(logo);
 
@@ -11,8 +12,8 @@ function Home() {
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src={logo}
-              alt="Logo"
+              src={zzy_host}
+              alt="zzy-host"
             />
           </div>
           <div class="col-lg-5">

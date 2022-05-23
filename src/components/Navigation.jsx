@@ -28,14 +28,14 @@ function Navigation() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/research">
-                  Research
+                <NavLink className="nav-link" to="/projects">
+                  Projects
                 </NavLink>
               </li>
             </ul>
           </div>
         </div>
-        <a href="/Vincent_Zhou_Resume.pdf" download>Resume</a>
+        <a className="nav-link" href="../static_files/file/Vincent_Zhou_Resume.pdf" download>Resume</a>
       </nav>
     </div>
   );
