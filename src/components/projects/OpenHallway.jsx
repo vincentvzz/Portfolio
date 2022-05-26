@@ -12,13 +12,13 @@ function OpenHallway() {
       <div class="container overflow-visible">
 
         <div class="row align-items-center my-5">
-            <div class="col-lg-5">
+            <div class="col-lg-12">
                 <h2 className="mt-5">Research</h2>
                 <p>
                     The initial research for Open Hallway was conducted through four semi-structured interviews over Zoom with students attending the University of Washington. The team developed interview questions and protocol that examined college students’ relationships with social media, remote learning, and mental health during the COVID-19 pandemic. Following the interviews, the team coded the transcripts to extract overarching themes and formulate our final research insights.
                 </p>
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-12">
                 <img
                     class="img-fluid rounded mb-4 mb-lg-0"
                     src={research}
@@ -106,6 +106,24 @@ function OpenHallway() {
                     alt="hifi1"
                 />
             </div>
+        </div>
+
+        <div>
+            <h2 className="mt-5">Reflection</h2>
+            <p>
+                This is my first user-centered design project with teammates. I worked on all the stages of a user-centered design project cycle, from User Research to Prototyping and User Testing. The final product is not perfectly polished, but it has been gone through the whole process with a clear purpose derived from User Research stage.
+            </p>
+            <p>Experience gained:
+                <ul>
+                    <li>User Research</li>
+                    <li>Personas</li>
+                    <li>User Journey Map</li>
+                    <li>Information Architecture</li>
+                    <li>Wireframes</li>
+                    <li>Prototyping</li>
+                    <li>User Testing</li>
+                </ul>
+            </p>
         </div>
 
         <p></p>

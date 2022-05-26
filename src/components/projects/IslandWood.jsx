@@ -89,12 +89,29 @@ function IslandWood() {
                 Currently, there are two pain points. First, users are forced to scroll down the main page so that they can get the button of contacting information. Second, the contact information page contains all the information regardless of programs, which is hard for users to find out the correct information directly.
             </p>
         </div>
+
         <div class="my-50">
             <img
                 class="img-fluid rounded mb-4 mb-lg-0"
                 src={mobileflow}
                 alt="mobile flow"
             />
+        </div>
+
+        <div>
+            <h2 className="mt-5">Reflection</h2>
+            <p>
+                As a first project that focuses heavily on UI Design, I learned a lot about how ideation on various elements come to the solid work on the task flow via different combinations on color and typography, design critiques, and summarizing how design decisions are being made using communication goals.
+            </p>
+            <p>Experience gained:
+                <ul>
+                    <li>Client Research</li>
+                    <li>UI Design</li>
+                    <li>Personas</li>
+                    <li>Wireframes</li>
+                    <li>Prototyping</li>
+                </ul>
+            </p>
         </div>
         <p></p>
       </div>
